@@ -27,4 +27,4 @@ mv ~/.local/share/nvim{,.bak}
 mv ~/.local/state/nvim{,.bak}
 mv ~/.cache/nvim{,.bak}
 
-git clone https://github.com/LazyVim/starter ~/.config/nvim
+git clone https://github.com/hamzahdili2001/LazyVim.git ~/.config/nvim
