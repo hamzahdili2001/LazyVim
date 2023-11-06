@@ -9,20 +9,11 @@ return {
   end
 	},
 
-	-- color picker 
-	{
-	"ziontee113/color-picker.nvim",
-	config = function()
-			require("color-picker").setup()
-	end
-	},
-
 	-- color highlight
 	{
-		"norcalli/nvim-colorizer.lua",
+		"brenoprata10/nvim-highlight-colors",
 		config = function()
-			require ('colorizer').setup()
+			require('nvim-highlight-colors').setup {}
 		end
-
 	}
 }

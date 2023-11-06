@@ -16,3 +16,4 @@ op.termguicolors = true
 op.wrap = false
 op.autowrite = true
 op.cursorline = true
+vim.g.autoformat = false
