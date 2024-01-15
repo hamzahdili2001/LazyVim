@@ -17,3 +17,7 @@ op.wrap = false
 op.autowrite = true
 op.cursorline = true
 vim.g.autoformat = false
+
+local python3_host_prog = vim.env.HOME .. '/.local/venv/nvim/bin/python'
+
+vim.g.python3_host_prog = python3_host_prog
