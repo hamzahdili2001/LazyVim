@@ -12,3 +12,8 @@ vim.cmd([[
 vim.g.blamer_enabled = true
 vim.g.blamer_delay = 100
 vim.g.blamer_prefix = '  ➜ '
+
+local cmp = require('cmp')
+cmp.popup = {
+  hidden = true,
+}
